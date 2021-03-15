@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102DD7A125F8404E00F562EC /* ReminderMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7A025F8404E00F562EC /* ReminderMessageView.swift */; };
+		102DD7A725F8428000F562EC /* ReminderMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7A625F8428000F562EC /* ReminderMessageViewModel.swift */; };
+		102DD7AD25F842B900F562EC /* ReminderMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7AC25F842B900F562EC /* ReminderMessage.swift */; };
+		102DD7C625F9911600F562EC /* PopupModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7C525F9911600F562EC /* PopupModifier.swift */; };
+		102DD7CE25F99C5600F562EC /* BlogPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7CD25F99C5600F562EC /* BlogPostsView.swift */; };
+		102DD7D325F9BA4000F562EC /* Example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7D225F9BA4000F562EC /* Example1.swift */; };
+		102DD7E425F9FBB400F562EC /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7E325F9FBB400F562EC /* WebView.swift */; };
+		102DD7FA25FEDBCF00F562EC /* ReminderMessageDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102DD7F925FEDBCF00F562EC /* ReminderMessageDataStore.swift */; };
 		105B0C0125F474EB00527643 /* SwiftUILocalNotiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C0025F474EB00527643 /* SwiftUILocalNotiApp.swift */; };
-		105B0C0325F474EB00527643 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C0225F474EB00527643 /* ContentView.swift */; };
 		105B0C0525F474EC00527643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B0C0425F474EC00527643 /* Assets.xcassets */; };
 		105B0C0825F474EC00527643 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B0C0725F474EC00527643 /* Preview Assets.xcassets */; };
 		105B0C1325F474EC00527643 /* SwiftUILocalNotiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C1225F474EC00527643 /* SwiftUILocalNotiTests.swift */; };
 		105B0C1E25F474EC00527643 /* SwiftUILocalNotiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C1D25F474EC00527643 /* SwiftUILocalNotiUITests.swift */; };
+		105B0C2F25F474FA00527643 /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C2E25F474FA00527643 /* Example2.swift */; };
+		105B0C3425F4B07F00527643 /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B0C3325F4B07F00527643 /* NotificationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102DD7A025F8404E00F562EC /* ReminderMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMessageView.swift; sourceTree = "<group>"; };
+		102DD7A625F8428000F562EC /* ReminderMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMessageViewModel.swift; sourceTree = "<group>"; };
+		102DD7AC25F842B900F562EC /* ReminderMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMessage.swift; sourceTree = "<group>"; };
+		102DD7C525F9911600F562EC /* PopupModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupModifier.swift; sourceTree = "<group>"; };
+		102DD7CD25F99C5600F562EC /* BlogPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostsView.swift; sourceTree = "<group>"; };
+		102DD7D225F9BA4000F562EC /* Example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1.swift; sourceTree = "<group>"; };
+		102DD7E325F9FBB400F562EC /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		102DD7F925FEDBCF00F562EC /* ReminderMessageDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderMessageDataStore.swift; sourceTree = "<group>"; };
 		105B0BFD25F474EB00527643 /* SwiftUILocalNoti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILocalNoti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		105B0C0025F474EB00527643 /* SwiftUILocalNotiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILocalNotiApp.swift; sourceTree = "<group>"; };
-		105B0C0225F474EB00527643 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		105B0C0425F474EC00527643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		105B0C0725F474EC00527643 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		105B0C0925F474EC00527643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +61,8 @@
 		105B0C1925F474EC00527643 /* SwiftUILocalNotiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILocalNotiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		105B0C1D25F474EC00527643 /* SwiftUILocalNotiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILocalNotiUITests.swift; sourceTree = "<group>"; };
 		105B0C1F25F474EC00527643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105B0C2E25F474FA00527643 /* Example2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
+		105B0C3325F4B07F00527643 /* NotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +90,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		102DD7A525F8426B00F562EC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				102DD7A625F8428000F562EC /* ReminderMessageViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		102DD7AB25F8428E00F562EC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				102DD7AC25F842B900F562EC /* ReminderMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		102DD7B425F8448100F562EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				102DD7D225F9BA4000F562EC /* Example1.swift */,
+				105B0C2E25F474FA00527643 /* Example2.swift */,
+				102DD7A025F8404E00F562EC /* ReminderMessageView.swift */,
+				102DD7CD25F99C5600F562EC /* BlogPostsView.swift */,
+				102DD7E325F9FBB400F562EC /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		102DD7C425F9910100F562EC /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				102DD7C525F9911600F562EC /* PopupModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		102DD7F825FEDBC000F562EC /* DataService */ = {
+			isa = PBXGroup;
+			children = (
+				102DD7F925FEDBCF00F562EC /* ReminderMessageDataStore.swift */,
+			);
+			path = DataService;
+			sourceTree = "<group>";
+		};
 		105B0BF425F474EB00527643 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +157,13 @@
 		105B0BFF25F474EB00527643 /* SwiftUILocalNoti */ = {
 			isa = PBXGroup;
 			children = (
+				102DD7F825FEDBC000F562EC /* DataService */,
+				102DD7C425F9910100F562EC /* Modifiers */,
+				102DD7B425F8448100F562EC /* Views */,
+				102DD7AB25F8428E00F562EC /* Models */,
+				102DD7A525F8426B00F562EC /* ViewModels */,
 				105B0C0025F474EB00527643 /* SwiftUILocalNotiApp.swift */,
-				105B0C0225F474EB00527643 /* ContentView.swift */,
+				105B0C3325F4B07F00527643 /* NotificationHandler.swift */,
 				105B0C0425F474EC00527643 /* Assets.xcassets */,
 				105B0C0925F474EC00527643 /* Info.plist */,
 				105B0C0625F474EC00527643 /* Preview Content */,
@@ -259,7 +326,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				105B0C0325F474EB00527643 /* ContentView.swift in Sources */,
+				102DD7C625F9911600F562EC /* PopupModifier.swift in Sources */,
+				102DD7E425F9FBB400F562EC /* WebView.swift in Sources */,
+				102DD7CE25F99C5600F562EC /* BlogPostsView.swift in Sources */,
+				105B0C2F25F474FA00527643 /* Example2.swift in Sources */,
+				102DD7FA25FEDBCF00F562EC /* ReminderMessageDataStore.swift in Sources */,
+				102DD7AD25F842B900F562EC /* ReminderMessage.swift in Sources */,
+				102DD7A125F8404E00F562EC /* ReminderMessageView.swift in Sources */,
+				102DD7A725F8428000F562EC /* ReminderMessageViewModel.swift in Sources */,
+				105B0C3425F4B07F00527643 /* NotificationHandler.swift in Sources */,
+				102DD7D325F9BA4000F562EC /* Example1.swift in Sources */,
 				105B0C0125F474EB00527643 /* SwiftUILocalNotiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
