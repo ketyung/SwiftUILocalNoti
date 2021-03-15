@@ -1,5 +1,5 @@
 //
-//  LuckyPopupView.swift
+//  PopupModifier.swift
 //  SwiftUILocalNoti
 //
 //  Created by Chee Ket Yung on 11/03/2021.
