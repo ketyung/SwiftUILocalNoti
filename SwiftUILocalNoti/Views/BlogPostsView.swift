@@ -20,7 +20,7 @@ struct BlogPostsView : View {
                    Text("Blog post on Handling local notification in SwiftUI")
                 }
             
-                NavigationLink(destination: WebView(urlString : "https://blog.techchee.com/swiftui-local-notification-mvvm")){
+                NavigationLink(destination: WebView(urlString : "https://blog.techchee.com/scheduling-local-notification-swiftui")){
                     
                    Text("Blog post on Scheduling local notification in SwiftUI - the MVVM way")
                 }
